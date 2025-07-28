@@ -1,0 +1,181 @@
+/* -----------------------------------------------------------------------------
+   Custom Theme CSS
+   ----------------------------------------------------------------------------- */
+
+/* ---------------- Global Custom CSS ------------------- */
+.t4s-mobile-search-section {
+
+  border-top: none !important;
+}
+.t4s-mini-search__viewAll.t4s-d-block {
+  padding: 1rem 1rem;
+}
+.t4s-search-header__form-wrap .t4s-search-header__form {
+  border: 1px solid rgb(34, 34, 34) !important;
+}
+
+/* Custom search icon on left - Global Styles */
+.t4s-search-header__submit-left {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.t4s-search-header__submit-left:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.t4s-search-input-with-left-icon::placeholder {
+  color: rgba(34, 34, 34, 0.6);
+}
+
+/* Custom Buttons Global Styles */
+.t4s-custom-buttons-wrapper {
+  align-items: center !important;
+}
+
+.t4s-custom-btn-link:focus,
+.t4s-custom-btn-text:focus {
+  outline: 2px solid rgba(34, 34, 34, 0.3);
+  outline-offset: 2px;
+}
+
+/* Custom button variables for easy override */
+:root {
+  --custom-btn-text-color: #222222;
+  --custom-btn-text-hover-color: #56cfe1;
+  --custom-btn-border-color: rgba(34, 34, 34, 0.2);
+  --custom-btn-border-hover-color: #56cfe1;
+  --custom-btn-bg-color: transparent;
+  --custom-btn-bg-hover-color: rgba(86, 207, 225, 0.1);
+  --custom-btn-border-radius: 4px;
+  --custom-btn-border-width: 1px;
+}
+
+/* Override styles for better control */
+.t4s-custom-btn-link,
+.t4s-custom-btn-text {
+  color: var(--custom-btn-text-color) !important;
+  border: var(--custom-btn-border-width) solid var(--custom-btn-border-color) !important;
+  border-radius: var(--custom-btn-border-radius) !important;
+  background-color: var(--custom-btn-bg-color) !important;
+}
+
+.t4s-custom-btn-link:hover {
+  color: var(--custom-btn-text-hover-color) !important;
+  border-color: var(--custom-btn-border-hover-color) !important;
+  background-color: var(--custom-btn-bg-hover-color) !important;
+}
+
+/* ---------------- Desktop-only Custom CSS ------------------- */
+@media (min-width: 1025px) {
+  .search-width-custom {
+  width: 58%;
+}
+.logo-width-custom {
+  width: 15%;
+}
+.t4s-search-header__form {
+  max-width: 100% !important;
+}
+
+/* Custom search icon positioning for desktop */
+.t4s-search-header__submit-left {
+  left: 3px;
+  width: 38px;
+}
+
+/* Custom buttons desktop positioning */
+.t4s-custom-buttons-wrapper {
+  gap: 20px !important;
+}
+  .iconos-custom{
+    width: 5%;
+  }
+
+}
+
+/* ---------------- Tablet and Mobile Custom CSS ------------------- */
+@media (max-width: 1024px) {
+  /* Custom search icon positioning for mobile/tablet */
+  .t4s-search-header__submit-left {
+    left: 2px;
+    width: 36px;
+  }
+  
+  .t4s-search-input-with-left-icon {
+    padding-left: 40px !important;
+  }
+  
+  /* Custom buttons mobile positioning */
+  .t4s-custom-buttons-wrapper {
+    margin-left: 15px !important;
+    gap: 12px !important;
+  }
+  
+  .t4s-custom-btn-link,
+  .t4s-custom-btn-text {
+    padding: 6px 14px !important;
+    font-size: 12px !important;
+  }
+  
+  /* Ensure custom button styles work on mobile */
+  .t4s-custom-btn-link,
+  .t4s-custom-btn-text {
+    border-width: var(--custom-btn-border-width) !important;
+  }
+
+}
+
+/* ---------------- Tablet-only Custom CSS ------------------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .t4s-custom-buttons-wrapper {
+    margin-left: 18px !important;
+  }
+}
+
+/* ---------------- Mobile-only Custom CSS ------------------- */
+@media (max-width: 768px) {
+  /* Hide custom buttons on very small screens if needed */
+  .t4s-custom-buttons-wrapper {
+    display: none !important;
+  }
+  
+  /* Ensure search icon works well on mobile */
+  .t4s-search-header__submit-left {
+    width: 34px;
+  }
+  
+  .t4s-search-input-with-left-icon {
+    padding-left: 38px !important;
+  }
+  .t4s-site-nav__icon.t4s-site-nav__search {
+  display: none !important;
+}
+}
+
+/* 
+  Custom Button Color Examples:
+  
+  To override button colors globally, you can use these CSS variables:
+  
+  :root {
+    --custom-btn-text-color: #ffffff;
+    --custom-btn-text-hover-color: #000000;
+    --custom-btn-border-color: #ffffff;
+    --custom-btn-border-hover-color: #000000;
+    --custom-btn-bg-color: #000000;
+    --custom-btn-bg-hover-color: #ffffff;
+    --custom-btn-border-radius: 25px;
+    --custom-btn-border-width: 2px;
+  }
+  
+  Or target specific buttons:
+  
+  .t4s-custom-btn1 .t4s-custom-btn-link {
+    background-color: #ff0000 !important;
+  }
+  
+  .t4s-custom-btn2 .t4s-custom-btn-link {
+    background-color: #00ff00 !important;
+  }
+*/
