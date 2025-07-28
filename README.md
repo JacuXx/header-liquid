@@ -3,16 +3,10 @@
 Un header personalizado avanzado para el tema Kalles de Shopify que combina un diseño moderno con funcionalidades personalizadas para tiendas de comercio electrónico.
 
 
-##Desktop
-![Banner](https://github.com/JacuXx/header-liquid/blob/main/img/desktop.png)
-
-##Movil
-![Banner](https://github.com/JacuXx/header-liquid/blob/main/img/movil.png)
-
-
 ## 📱 Diseño Responsive
 
-
+### 🖥️ Vista Desktop
+![Header Desktop - Búsqueda predictiva con icono a la izquierda, botón BEST SELLERS y navegación por categorías](https://github.com/JacuXx/header-liquid/blob/main/img/desktop.png)
 
 **Características destacadas en desktop:**
 - 🔍 **Búsqueda predictiva activa**: Barra de búsqueda amplia con placeholder "Buscar productos"
@@ -21,6 +15,8 @@ Un header personalizado avanzado para el tema Kalles de Shopify que combina un d
 - 👤 **Iconos de usuario y carrito**: Posicionados estratégicamente a la derecha
 - ✨ **Diseño limpio**: Espaciado profesional y tipografía optimizada
 
+### 📱 Vista Mobile
+![Header Mobile - Diseño compacto con hamburger menu, búsqueda predictiva y navegación optimizada](https://github.com/JacuXx/header-liquid/blob/main/img/movil.png)
 
 **Características destacadas en mobile:**
 - 📱 **Header compacto responsive**: Optimizado para pantallas pequeñas
@@ -63,8 +59,6 @@ Un header personalizado avanzado para el tema Kalles de Shopify que combina un d
 - **🔍 Icono posicionado a la izquierda**: Mejora la UX con indicación visual clara
 - **⚡ Performance optimizada**: Búsqueda rápida sin afectar la velocidad del sitio
 - **🎨 Diseño integrado**: Se integra perfectamente con el diseño del header
-
-## ✨ Características Únicas
 
 ## ✨ Características Únicas
 
