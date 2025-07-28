@@ -1,8 +1,14 @@
 # Header Categories - Kalles Theme Custom Header
 
 Un header personalizado avanzado para el tema Kalles de Shopify que combina un diseño moderno con funcionalidades personalizadas para tiendas de comercio electrónico.
-Desktop
+
+
+##Desktop
 ![Banner](https://github.com/JacuXx/header-liquid/blob/main/img/desktop.png)
+
+##Movil
+![Banner](https://github.com/JacuXx/header-liquid/blob/main/img/movil.png)
+
 
 ## 📱 Diseño Responsive
 
