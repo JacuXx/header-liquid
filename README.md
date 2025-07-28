@@ -10,7 +10,6 @@ Un header personalizado avanzado para el tema Kalles de Shopify que combina un d
 - 🔍 **Búsqueda predictiva activa**: Barra de búsqueda amplia con placeholder "Buscar productos"
 - 📍 **Icono de búsqueda a la izquierda**: Diseño único que mejora la UX
 - 🏷️ **Botón "BEST SELLERS"**: Botón personalizado prominente y funcional
-- 🎯 **Navegación por categorías**: Enlaces "mega", "mega", "base" en la parte inferior
 - 👤 **Iconos de usuario y carrito**: Posicionados estratégicamente a la derecha
 - ✨ **Diseño limpio**: Espaciado profesional y tipografía optimizada
 
