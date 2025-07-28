@@ -4,8 +4,7 @@ Un header personalizado avanzado para el tema Kalles de Shopify que combina un d
 
 ## 📱 Diseño Responsive
 
-### Vista Desktop
-![Header Desktop con búsqueda predictiva - Muestra el layout completo con barra de búsqueda centrada, icono a la izquierda, botón BEST SELLERS y navegación por categorías mega/base](https://github.com/user-attachments/assets/desktop-header-predictive-search.png)
+
 
 **Características destacadas en desktop:**
 - 🔍 **Búsqueda predictiva activa**: Barra de búsqueda amplia con placeholder "Buscar productos"
@@ -15,8 +14,6 @@ Un header personalizado avanzado para el tema Kalles de Shopify que combina un d
 - 👤 **Iconos de usuario y carrito**: Posicionados estratégicamente a la derecha
 - ✨ **Diseño limpio**: Espaciado profesional y tipografía optimizada
 
-### Vista Mobile
-![Header Mobile compacto - Vista responsive con búsqueda predictiva, navegación hamburguesa y iconos de usuario optimizados para dispositivos móviles](https://github.com/user-attachments/assets/mobile-header-compact-search.png)
 
 **Características destacadas en mobile:**
 - 📱 **Header compacto responsive**: Optimizado para pantallas pequeñas
